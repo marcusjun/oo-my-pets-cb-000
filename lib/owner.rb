@@ -16,7 +16,9 @@ class Owner
 
     @pets= {fishes: [], cats: [], dogs: []}
 
-    @@all<<self
+    #@@all<<self
+
+    self.all<<self
 
     #The following code doesn't work for whatever reason
     #self.all.class<<self
