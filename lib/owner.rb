@@ -104,7 +104,7 @@ class Owner
     number_dogs=@pets[:dogs].length
     number_cats=@pets[:cats].length
 
-    "I have #{number_fish} fish, #{number_dogs} dog(s), and #{number_cats} cat(s)."
+    "I have #{@pets[:fishes].length} fish, #{number_dogs} dog(s), and #{number_cats} cat(s)."
     #puts "I have #{number_fish} fish, #{number_dogs} dog(s), and #{number_cats} cat(s)."
 
     #Alternative, wordy approach. don't know if it works
