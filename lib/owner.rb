@@ -100,9 +100,9 @@ class Owner
   end
 
   def list_pets
-    number_fish=@pets[:fishes].length
-    number_dogs=@pets[:dogs].length
-    number_cats=@pets[:cats].length
+    #number_fish=@pets[:fishes].length
+    #number_dogs=@pets[:dogs].length
+    #number_cats=@pets[:cats].length
 
     "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
     #puts "I have #{number_fish} fish, #{number_dogs} dog(s), and #{number_cats} cat(s)."
