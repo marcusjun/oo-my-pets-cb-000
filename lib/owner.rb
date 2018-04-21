@@ -5,6 +5,11 @@ class Owner
   attr_accessor :pets, :name
   attr_reader :species
 
+  #Some methods described in owner_spec.rb
+  #including #species and #name
+  #are covered by the above attr_accessor
+  #and/or attr_reader
+
   @@all=[]
 
   def self.all
