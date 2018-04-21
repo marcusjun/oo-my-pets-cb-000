@@ -41,15 +41,12 @@ class Owner
     #puts "I am a #{@species}."
   end
 
-  #def pets
-    #@pets= {fishes: [], cats: [], dogs: []}
-  #end
 
   def buy_cat(name)
     new_cat=Cat.new(name)
     @pets[:cats]<<new_cat  #@pets[cats]<<new_cat
     #@pets[:cats].push(new_cat)
-    
+
   end
 
   def buy_dog(name)
