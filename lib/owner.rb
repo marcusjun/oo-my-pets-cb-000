@@ -30,9 +30,9 @@ class Owner
   end
 
   def self.reset_all
+    #Either line of code works
     #@@all.clear
     self.all.clear
-    #self.class.all.clear   #
   end
 
   def say_species
