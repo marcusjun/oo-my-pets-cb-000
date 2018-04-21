@@ -11,10 +11,9 @@ class Owner
     @@all
   end
 
-  def initialize(species) #="human")
+  def initialize(species)
     @species=species
-    #@name=name
-
+    
     @pets= {fishes: [], cats: [], dogs: []}
 
     #self.all.class<<self
