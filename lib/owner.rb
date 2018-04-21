@@ -17,6 +17,9 @@ class Owner
     @pets= {fishes: [], cats: [], dogs: []}
 
     @@all<<self
+
+    #The following code doesn't work for whatever reason
+    #self.all.class<<self
   end
 
   def self.count
