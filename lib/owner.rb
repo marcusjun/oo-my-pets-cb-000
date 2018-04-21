@@ -25,9 +25,9 @@ class Owner
   def self.count
     #Either line of code works
     #@@all.length
-    self.all.length
+    #self.all.length
 
-    #self.class.all.length   #
+    self.class.all.length   
 
   end
 
