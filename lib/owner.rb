@@ -107,6 +107,7 @@ class Owner
     "I have #{number_fish} fish, #{number_dogs} dog(s), and #{number_cats} cat(s)."
     #puts "I have #{number_fish} fish, #{number_dogs} dog(s), and #{number_cats} cat(s)."
 
+    #Alternative, wordy approach. don't know if it works
     #number_fish=0
     #number_dogs=0
     #number_cats=0
