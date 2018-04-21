@@ -50,12 +50,12 @@ class Owner
 
   def buy_cat(name)
     new_cat=Cat.new(name)
-    @pets[:cats]<<new_cat  
+    @pets[:cats]<<new_cat
   end
 
   def buy_dog(name)
     new_dog=Dog.new(name)
-    @pets[:dogs]<<new_dog 
+    @pets[:dogs]<<new_dog
   end
 
   def buy_fish(name)
@@ -89,9 +89,11 @@ class Owner
     #@pets[:cats].mood="nervous"
     #@pets[:fishes].mood="nervous"
 
-    @pets.each do |animal, animal_array|
-      animal_array.clear
-    end
+    @pets.each {|animal, animal_array| animal_array.clear}
+
+    #@pets.each do |animal, animal_array|
+      #animal_array.clear
+    #end
 
     #@pets[:dogs].each {|animal_array| animal_array.clear}
     #@pets[:cats].each {|animal_array| animal_array.clear}
