@@ -89,8 +89,10 @@ class Owner
     #@pets[:cats].mood="nervous"
     #@pets[:fishes].mood="nervous"
 
+
     @pets.each {|animal, animal_array| animal_array.clear}
 
+    #This works too.
     #@pets.each do |animal, animal_array|
       #animal_array.clear
     #end
