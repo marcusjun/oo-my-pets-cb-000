@@ -51,15 +51,7 @@ class Owner
 
   def buy_fish(name)
     new_fish=Fish.new(name)
-    @pets[:fishes]<<new_fish  #@pets[fishes]<<new_fish
-
-    #self.pets[:fishes]<<new_fish
-
-    #@pets[:fishes]=new_fish
-
-    #binding.pry
-
-    ##@pets[:fishes]<<Fish.new(name)
+    @pets[:fishes]<<new_fish
   end
 
   def walk_dogs
