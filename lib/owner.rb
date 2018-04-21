@@ -16,8 +16,7 @@ class Owner
 
     @pets= {fishes: [], cats: [], dogs: []}
 
-    self.all<<self
-    #@@all<<self
+    @@all<<self
   end
 
   def self.count
