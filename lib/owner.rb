@@ -37,6 +37,8 @@ class Owner
 
   def say_species
     "I am a #{@species}."
+
+    #Don't use puts
     #puts "I am a #{@species}."
   end
 
