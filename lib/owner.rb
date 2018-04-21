@@ -31,12 +31,6 @@ class Owner
     #self.class.all.clear   #self.all.clear
   end
 
-  #Unnecessary method
-  #def species(species)
-    ##new_owner=self.new(name)
-    #@species=species
-  #end
-
   def say_species
     "I am a #{@species}."
     #puts "I am a #{@species}."
