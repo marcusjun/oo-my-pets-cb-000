@@ -18,9 +18,10 @@ class Owner
 
     #@@all<<self
 
-    self.all<<self
+    
 
-    #The following code doesn't work for whatever reason
+    #The following lines of code don't work
+    #self.all<<self
     #self.all.class<<self
   end
 
